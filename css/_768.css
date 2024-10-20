@@ -1,0 +1,207 @@
+@media (max-width: 800px) {
+  /* [class*="__container"] {
+    max-width: 540px;
+    margin: 0 auto;
+    padding: 0 25px;
+  } */
+
+  .header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+  }
+
+  .header__container {
+    height: 75px;
+    width: 100%;
+  }
+
+  .header__icon {
+    width: 98px;
+    position: absolute;
+    top: 0;
+    padding-top: 0;
+    z-index: 103;
+  }
+
+  .news__container {
+    padding: 0;
+  }
+
+  .swiper-slide {
+    height: 301px;
+  }
+
+  .swiper-pagination-bullet-active {
+    background-color: var(--color-yellow);
+  }
+
+  .swiper-slide img {
+    object-fit: cover;
+  }
+
+  .swiper-pagination {
+    padding-right: 143px;
+  }
+
+
+  .news__icon {
+    z-index: 50;
+    height: 220px;
+    top: 70px;
+    left: -130px;
+  }
+
+
+
+  .news__title {
+    padding-top: 10px;
+    padding-left: 26px;
+    padding-right: 26px;
+  }
+
+
+  .news__description,
+  .news__card-left,
+  .news__card-right,
+  .news__card-right-donate-today,
+  .news__card-right-donate-help,
+  .news__card-right-follow {
+    grid-column: 1/13;
+    padding-left: 26px;
+    padding-right: 26px;
+    max-width: 590px;
+    margin-right: 0;
+  }
+
+
+  .news__time {
+    grid-column: 1/6;
+    grid-row: 1/2;
+  }
+
+  .news__description-card {
+    grid-column: 1/6;
+    grid-row: 3/4;
+  }
+
+  .news__card-foto {
+    grid-column: 1/6;
+    grid-row: 2/3;
+    padding-top: 35px;
+    margin-bottom: 20px;
+  }
+
+  .news__card-foto img {
+    width: 100%
+  }
+
+  .news__description-card {
+    line-height: 160%;
+  }
+
+  .news__line-gray {
+    margin-bottom: 50px;
+  }
+
+  .Gambling {
+    padding-top: 0;
+  }
+
+  .news__card-btn {
+    padding-top: 6px;
+    justify-content: center;
+  }
+
+  .news__card-link {
+    padding: 20px 55px 20px 55px;
+  }
+
+  .news__card-right {
+    padding-top: 83px;
+  }
+
+  .news__form {
+    padding: 35px 30px 35px 44px;
+  }
+
+  .form__title {
+    margin-bottom: 20px;
+  }
+
+  .form__description {
+    margin-bottom: 25px;
+  }
+
+  .form__input {
+    width: 98%;
+    height: 45px;
+    margin-bottom: 15px;
+  }
+
+  .form__checkbox-text {
+    margin-bottom: 25px;
+  }
+
+  .form__btn {
+    width: 98%;
+    text-align: center;
+  }
+
+  .news__card-right-donate-today {
+    padding-top: 60px;
+  }
+
+
+  .news__link,
+  .news__card-link-help {
+    align-self: center;
+    border-radius: 0;
+    padding: 30px 120px 30px 120px;
+    margin-bottom: 0;
+  }
+
+  .news__card-right-follow {
+    padding-top: 50px;
+
+  }
+
+  .news {
+    margin-bottom: 85px;
+  }
+
+  .footer__container {
+    padding-top: 35px;
+  }
+
+  .footer-nav__link {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 25px;
+
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--color-white);
+  }
+
+  .footer-nav__list {
+   padding-top: 22px;
+  }
+
+  .footer-nav__item:not(:last-child) {
+    margin-right: 30px;
+    margin-bottom: 13px;
+  }
+
+  .footer__social-icon{
+    width: 55px;
+    height: 55px;
+  }
+  .footer__social-item:not(:last-child) {
+    margin-right: 15px;
+  }
+
+
+}

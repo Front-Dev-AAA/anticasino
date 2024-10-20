@@ -1,0 +1,22 @@
+@media (max-width: 1850px) {
+
+  .news__slider,
+  .news__main,
+  .news__title,
+  .news__description,
+  .news__card-left,
+  .news__card-right,
+  .news__card-right-donate-today,
+  .news__card-right-donate-help,
+  .news__card-right-follow {
+    grid-column: 1/13;
+    grid-row: unset;
+  }
+
+
+  .news__card-right-donate-today, .news__card-right-donate-help {
+    margin-top: 0;
+    }
+
+
+}

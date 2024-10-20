@@ -1,0 +1,142 @@
+
+.description {
+  padding-top: 65px;
+}
+
+.description__container {
+  padding: 0 389.5px;
+}
+
+.description__shell {
+  background-color: var(--color-description);
+  border-radius: 32px;
+  display: flex;
+  color: var(--color-white);
+  padding: 80px 100px;
+}
+
+.description__left {
+  display: flex;
+  flex-direction: column;
+  max-width: 515px;
+  padding-top: 110px;
+  margin-right: 59px;
+}
+
+.description__right {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 40px 32px;
+  background-color: var(--color-white);
+  max-width: 368px;
+}
+
+.description__icon {
+  align-self: center;
+  margin-bottom: 27px;
+}
+
+
+
+.description__time {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  color: var(--color-green);
+  margin-bottom: 35px;
+}
+
+.description__title {
+  font-weight: 600;
+  font-size: calc(24px + 8 * ((100vw - 320px) / (1920 - 320)));
+  color: var(--color-white);
+  margin-bottom: 13px;
+}
+
+.description__devices {
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.description__devices-item {
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 133%;
+  color: var(--color-white-dirty);
+  border: 1px solid #ccc;
+  border-radius: 80px;
+  padding: 7px 12px;
+}
+
+.description__devices-item:not(:last-child) {
+  margin-right: 12px;
+}
+
+.description__characteristic {
+  margin-right: 20px;
+  font-weight: 400;
+  font-size: calc(16px + 4 * ((100vw - 320px) / (1920 - 320)));
+  color: var(--color-white);
+  line-height: 115%;
+  margin-bottom: 32px;
+}
+
+.description__link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 112%;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: var(--color-green);
+}
+
+.description__title-card {
+  font-weight: 500;
+  font-size: calc(20px + 4 * ((100vw - 320px) / (1920 - 320)));
+  line-height: 125%;
+  color: var(--color-black);
+  margin-bottom: 8px;
+}
+
+.description__signature {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--color-gray);
+  line-height: 110%;
+  margin-bottom: 25px;
+}
+
+.description__rebate {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.description__no-rebate {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 133%;
+  text-decoration: line-through;
+  color: var(--color-rebate);
+}
+
+.description__with-rebate {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 112%;
+  color: var(--color-black);
+}
+
+
+.description__nds {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+  color: var(--color-black);
+}
+
+.description__btn {
+  padding: 15px 32px;
+}
